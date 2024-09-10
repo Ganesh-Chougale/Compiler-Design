@@ -27,7 +27,7 @@ here is how tokenazation happens
 ```bash
 int c = a + b + 10;
 int|c|=|a|+|b|+|10|;
-int : type operator
+int : datatype
 c   : variable
 =   : assign to operator
 a   : variable
@@ -65,5 +65,6 @@ Identifiers:       isLogged, isAdult, setCount
  Ment:              ++, --
  Bitwise:           &, |, ^, ~, <<, >>
  Ternary:           ? :
- Member Access:     ., ->          
+ Member Access:     ., ->
+ Pointer:           *, &
 ```
