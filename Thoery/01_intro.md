@@ -1,7 +1,7 @@
 ## Compiler Design
 ![0101](../Images/0101.jpg)
 
-> 1. Removal of Preprocessor Directives
+> # 1. Removal of Preprocessor Directives
 Example:
 ```C++
 #include <stdio.h>
@@ -16,7 +16,7 @@ OR
 #ifndef
 ```
 
-> 2. Tokenization
+> # 2. Lexical Analysis (Tokenization)
 
 Example:
 ```C++
@@ -67,4 +67,18 @@ Identifiers:       isLogged, isAdult, setCount
  Ternary:           ? :
  Member Access:     ., ->
  Pointer:           *, &
+```
+```bash
+# Literals: literals like character, number literals, function literal, object literals
+String:       "Hello World!"
+Arrow fn:     () => {}
+```
+```bash
+# Delimiters: Delimiters are symbols or characters used to separate or group various parts of code, helping define the structure and organization of the program
+Semicolon (;):      to end of a statement or command.
+Comma (,):          Separates items in a list or multiple parameters in function calls.
+Parentheses (()):   Used to group expressions, function arguments, or to alter precedence.
+Braces ({}):        Define blocks of code, such as function bodies or loops.
+Brackets ([]):      Used for array indexing or to define array literals.
+Dot (.):            Accesses members of an object or class, like methods or properties.
 ```
