@@ -1,21 +1,3 @@
-## Compiler Design
-![0101](../Images/0101.jpg)
-
-> # 1. Removal of Preprocessor Directives
-Example:
-```C++
-#include <stdio.h>
-```
-OR 
-```C++
-// Preprocessor prefixes
-#include
-#define
-// conditional compilation  prefixes
-#ifdef
-#ifndef
-```
-
 > # 2. Lexical Analysis (Tokenization)
 
 Example:
