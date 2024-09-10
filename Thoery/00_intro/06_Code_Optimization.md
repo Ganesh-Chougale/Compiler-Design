@@ -18,7 +18,7 @@ In this code, a is a constant with the value 10. We can propagate this constant 
 ```C++
 int c = 30;
 ```
-B - Dead Code Elimination:
+- B. Dead Code Elimination:
 Removing code that has no effect on the program's output.
 - - Common Subexpression Elimination:
 Identifying and eliminating redundant computations.
